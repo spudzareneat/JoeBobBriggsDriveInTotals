@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Joe Bob's Drive-In Totals</title>
+  <meta name="description" content="Search Joe Bob Briggs' Drive-In Totals, star ratings and Drive-In Academy Award nominations for 800 movies.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Monoton&family=Patua+One&family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="site/style.css?v=9">
+</head>
+<body>
+  <!-- Joe Bob in the stars: a cowboy hat and a bolo tie drawn as constellations. -->
+  <div class="sky-figures">
+    <svg class="constellation c-hat" viewBox="0 0 240 130" aria-hidden="true"><g class="c-lines"><line x1="6" y1="70" x2="36" y2="98"/><line x1="36" y1="98" x2="120" y2="110"/><line x1="120" y1="110" x2="204" y2="98"/><line x1="204" y1="98" x2="234" y2="70"/><line x1="76" y1="96" x2="72" y2="40"/><line x1="72" y1="40" x2="90" y2="18"/><line x1="90" y1="18" x2="120" y2="26"/><line x1="120" y1="26" x2="150" y2="18"/><line x1="150" y1="18" x2="168" y2="40"/><line x1="168" y1="40" x2="164" y2="96"/><line x1="76" y1="96" x2="164" y2="96"/></g><g class="c-stars"><circle cx="6" cy="70" r="1.9"/><circle cx="36" cy="98" r="1.5"/><circle cx="120" cy="110" r="2.2"/><circle cx="204" cy="98" r="1.5"/><circle cx="234" cy="70" r="1.9"/><circle cx="76" cy="96" r="1.4"/><circle cx="72" cy="40" r="1.8"/><circle cx="90" cy="18" r="2.3"/><circle cx="120" cy="26" r="1.4"/><circle cx="150" cy="18" r="2.3"/><circle cx="168" cy="40" r="1.8"/><circle cx="164" cy="96" r="1.4"/></g></svg>
+    <svg class="constellation c-bolo" viewBox="0 0 150 280" aria-hidden="true"><g class="c-lines"><line x1="75" y1="8" x2="40" y2="40"/><line x1="40" y1="40" x2="60" y2="90"/><line x1="60" y1="90" x2="75" y2="110"/><line x1="75" y1="8" x2="110" y2="40"/><line x1="110" y1="40" x2="90" y2="90"/><line x1="90" y1="90" x2="75" y2="110"/><line x1="75" y1="110" x2="54" y2="132"/><line x1="54" y1="132" x2="75" y2="156"/><line x1="75" y1="156" x2="96" y2="132"/><line x1="96" y1="132" x2="75" y2="110"/><line x1="75" y1="156" x2="66" y2="200"/><line x1="66" y1="200" x2="62" y2="252"/><line x1="75" y1="156" x2="85" y2="206"/><line x1="85" y1="206" x2="89" y2="260"/></g><g class="c-stars"><circle cx="75" cy="8" r="2.0"/><circle cx="40" cy="40" r="1.5"/><circle cx="110" cy="40" r="1.5"/><circle cx="60" cy="90" r="1.3"/><circle cx="90" cy="90" r="1.3"/><circle cx="75" cy="110" r="1.8"/><circle cx="54" cy="132" r="1.8"/><circle cx="75" cy="156" r="1.8"/><circle cx="96" cy="132" r="1.8"/><circle cx="75" cy="132" r="2.8"/><circle cx="66" cy="200" r="1.4"/><circle cx="85" cy="206" r="1.4"/><circle cx="62" cy="252" r="2.1"/><circle cx="89" cy="260" r="2.1"/></g></svg>
+  </div>
+  <header class="sign">
+    <h1 class="neon">
+      <span class="neon-small">Joe Bob's</span>
+      <span class="neon-big">Drive-In <span class="tube">T</span>otals</span>
+    </h1>
+  </header>
+
+  <form class="picker" role="search" autocomplete="off" onsubmit="return false">
+    <div class="combo">
+      <label for="search" class="visually-hidden">Search movies</label>
+      <input id="search" type="search" placeholder="Search 800 flicks by title or year…"
+             role="combobox" aria-expanded="false" aria-controls="results" aria-autocomplete="list">
+      <ul id="results" role="listbox" hidden></ul>
+    </div>
+    <label for="show" class="visually-hidden">Filter by show</label>
+    <select id="show">
+      <option value="">Every show</option>
+    </select>
+    <button type="button" id="random">Random flick</button>
+  </form>
+
+  <main id="feature" aria-live="polite">
+    <p class="loading">Firing up the projector…</p>
+  </main>
+
+  <footer class="credits">
+    <p>Totals transcribed from Joe Bob Briggs' column and book, <cite>Joe Bob's Drive-In Theater</cite>, <cite>MonsterVision</cite> and <cite>The Last Drive-In</cite>.
+      Movie details and posters from <a href="https://www.imdb.com">IMDb</a>.
+      <a href="https://github.com/spudzareneat/DriveInTotals">Data on GitHub</a>.</p>
+    <p>Many of these totals were transcribed from episodes archived by <a href="https://www.patreon.com/c/TheLostDriveIn">The Lost Drive-In on Patreon</a>.</p>
+    <p class="signoff">Joe Bob says check it out.</p>
+  </footer>
+
+  <script src="site/app.js?v=9"></script>
+</body>
+</html>
