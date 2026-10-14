@@ -24,7 +24,7 @@ Scraping was done in a few ways. First, I started with [this excellent list](htt
 |---|---:|
 | Totals Scraped | **800** |
 | Movies with a Star Rating | 732 |
-| Drive-In Academy Award nominations | 220 |
+| Movies with Drive-In Academy Award nominations | 220 |
 | Movies checked but no totals found | **147** |
 | Known movies not scraped yet | **210** |
 
