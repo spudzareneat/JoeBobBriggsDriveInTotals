@@ -60,7 +60,7 @@ def fetch(ids):
         "x-imdb-client-name": "imdb-web-next-localized",
         "x-imdb-user-language": "en-US",
         "x-imdb-user-country": "US",
-        "User-Agent": "DriveInTotals/1.0 (fan dataset; github.com/spudzareneat/DriveInTotals)",
+        "User-Agent": "DriveInTotals/1.0 (fan dataset; github.com/spudzareneat/JoeBobBriggsDriveInTotals)",
     })
     with urllib.request.urlopen(req, timeout=60) as resp:
         body = json.load(resp)

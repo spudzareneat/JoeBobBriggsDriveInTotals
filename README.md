@@ -1,6 +1,6 @@
 # Drive-In Totals
 
-This is my best attempt to grab as many of Joe Bob's totals, ratings, and Drive-In Academy Award nominations as I can. It's not a perfect list, but I think it's pretty good. My goal is to have an easy-to-use dataset that can be ported to other things. As a bonus, there's a [cool page](https://spudzareneat.github.io/DriveInTotals) hosted on GitHub where you can look up any movie in the list. The drive-in will never die!
+This is my best attempt to grab as many of Joe Bob's totals, ratings, and Drive-In Academy Award nominations as I can. It's not a perfect list, but I think it's pretty good. My goal is to have an easy-to-use dataset that can be ported to other things. As a bonus, there's a [cool page](https://spudzareneat.github.io/JoeBobBriggsDriveInTotals) hosted on GitHub where you can look up any movie in the list. The drive-in will never die!
 
 ## A note about AI
 
